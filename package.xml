@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>make_magpie_rosbag</name>
+  <version>0.1.0</version>
+  <description>
+	The make_magpie_rosbag package
+  </description>
+
+  <maintainer email="hanley6@illinois.edu">David Hanley</maintainer>
+  <license>GPLv3</license>
+  <!-- <url type="website">http://wiki.ros.org/make_magpie_rosbag</url> -->
+  <author>David Hanley, David Degenhardt, Alex Faustino</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>rosbag</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>rosbag</run_depend>
+
+</package>
